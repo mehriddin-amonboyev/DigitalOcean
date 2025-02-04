@@ -4,32 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>Digital Ocean</title>
 </head>
 
 <body>
-    <header class="main_header">
+    <header class="main-header">
         <div class="container">
-            <div class="main_header__block">
-                <a href="#">
+            <div class="main-header__block">
+                <a class="main-header__img" href="#">
                     <img src="./images/site-logo.png" alt="websitening umumiy logotipi">
                 </a>
-                <ul class="main_header__list">
-                    <li class="main_header__item">
-                        <a class="main_header__link" href="#">Home</a>
+                <ul class="main-header__list">
+                    <li class="main-header__item">
+                        <a class="main-header__link" href="#">Home</a>
                     </li>
-                    <li class="main_header__item">
-                        <a class="main_header__link" href="#">About</a>
+                    <li class="main-header__item">
+                        <a class="main-header__link" href="#">About</a>
                     </li>
-                    <li class="main_header__item">
-                        <a class="main_header__link" href="#">Services</a>
+                    <li class="main-header__item">
+                        <a class="main-header__link" href="#">Services</a>
                     </li>
-                    <li class="main_header__item">
-                        <a class="main_header__link" href="#">Reviews</a>
+                    <li class="main-header__item">
+                        <a class="main-header__link" href="#">Reviews</a>
                     </li>
                 </ul>
-                <button class="main_header__btn">Get Started</button>
+                <button class="main-header__btn">
+                    <p class="main-header__btn_content">Get Started</p>
+                </button>
             </div>
 
         </div>
@@ -41,14 +44,22 @@
                 <div class="hero__block">
                     <div class="hero__content">
                         <h1 class="hero__title">Smart Business</h1>
-                        <p class="hero__sub_title">Connecting people is our business</p>
+                        <p class="hero__sub_title">Connecting people is our <span
+                                class="hero__sub_title_busines">business</span></p>
                         <p class="hero__text">
                             As a rule the organization settles on the inventive and media choices.
                             Regularly it supplies supporting statistical.
                         </p>
                         <div class="hero__btns">
-                            <button class="hero__btnget">Get Started</button>
-                            <button class="hero__btnvideo"><img src="./images/videoLogo.png">Play Video</button>
+                            <button class="hero__btn_get">Get Started</button>
+                            <button class="hero__btn_video">
+                                <span class="hero__btn_video_block">
+                                    <img src="./images/logo.video.png">
+                                </span>
+                                <span class="hero__btn_video_text">
+                                    Play Video
+                                </span>
+                            </button>
                         </div>
                     </div>
                     <div class="hero__img">
@@ -142,7 +153,7 @@
                         <li>
                             <div class="customer__image_block">
                                 <div class="customer__image">
-                                    <img src="" alt="">
+                                    <img src="./images/customer2.png" alt="">
                                 </div>
                             </div>
                             <div class="customer__main">
@@ -156,8 +167,9 @@
                 </div>
             </div>
         </section>
+
         <section class="sign-up">
-            <div class="containers">
+            <div class="container">
                 <h2 class="sign-up__title">
                     Sign Up to Our Newsletter
                 </h2>
